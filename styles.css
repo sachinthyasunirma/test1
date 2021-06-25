@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(242, 242, 242);
+}
+.form{
+    background-image: linear-gradient(rgb(153, 51, 255),rgb(102, 0, 204));
+    color: white;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 16px;
+    padding: 120px;
+    box-shadow: 2px 2px 8px black;
+}
+.imag-overlay::before{
+    content: '';
+    background-image: url("https://pixabay.com/users/manuchi-1728328/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2174045.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.18;
+    width: 400px;
+    height: 600px;
+}
+.icon{
+    position: absolute;
+    top:20px
+    right: 20px;
+
+}
